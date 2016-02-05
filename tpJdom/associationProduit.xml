@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="Diagramme de classes UML_2">
+  <packagedElement xmi:type="uml:Association" xmi:id="_Bq0j4KEaEeWB35I-2f8kMw" name="Association_1" memberEnd="_BraZwKEaEeWB35I-2f8kMw _BxX30KEaEeWB35I-2f8kMw">
+    <ownedEnd xmi:id="_BraZwKEaEeWB35I-2f8kMw" name="" visibility="public" type="_BznTgKEaEeWB35I-2f8kMw" association="_Bq0j4KEaEeWB35I-2f8kMw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Bw7y8KEaEeWB35I-2f8kMw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BwfHAKEaEeWB35I-2f8kMw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_BxX30KEaEeWB35I-2f8kMw" name="" visibility="public" type="_B53sgKEaEeWB35I-2f8kMw" association="_Bq0j4KEaEeWB35I-2f8kMw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BxrZ0aEaEeWB35I-2f8kMw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BxrZ0KEaEeWB35I-2f8kMw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BznTgKEaEeWB35I-2f8kMw" name="produit">
+    <ownedAttribute xmi:id="_B2lvAKEaEeWB35I-2f8kMw" name="idProduit" visibility="private" type="_B2vgAKEaEeWB35I-2f8kMw"/>
+    <ownedAttribute xmi:id="_B24p8KEaEeWB35I-2f8kMw" name="description" visibility="private" type="_B3Ca8KEaEeWB35I-2f8kMw"/>
+    <ownedAttribute xmi:id="_B3ML8KEaEeWB35I-2f8kMw" name="prix" visibility="private" type="_B3ML8aEaEeWB35I-2f8kMw"/>
+    <ownedOperation xmi:id="_B37y0KEaEeWB35I-2f8kMw" name="afficheProdit" visibility="public" bodyCondition="_B4E8wKEaEeWB35I-2f8kMw">
+      <ownedRule xmi:id="_B4E8wKEaEeWB35I-2f8kMw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_B4OtwKEaEeWB35I-2f8kMw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_B5IFoKEaEeWB35I-2f8kMw" name="afficheProdit" type="_B5kxkKEaEeWB35I-2f8kMw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_B2vgAKEaEeWB35I-2f8kMw" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_B3Ca8KEaEeWB35I-2f8kMw" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_B3ML8aEaEeWB35I-2f8kMw" name="float"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_B5kxkKEaEeWB35I-2f8kMw" name="void"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_B53sgKEaEeWB35I-2f8kMw" name="super_rmarche">
+    <ownedAttribute xmi:id="_B6diYKEaEeWB35I-2f8kMw" name="idSupermarche_" visibility="private" type="_B2vgAKEaEeWB35I-2f8kMw"/>
+    <ownedAttribute xmi:id="_B6xEYKEaEeWB35I-2f8kMw" name="adresse" visibility="private" type="_B3Ca8KEaEeWB35I-2f8kMw"/>
+  </packagedElement>
+</uml:Model>

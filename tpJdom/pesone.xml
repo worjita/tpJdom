@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="Diagramme de classes UML_1">
+  <packagedElement xmi:type="uml:Class" xmi:id="_t6a4EKG0EeWxX7h3_p9AeQ" name="perseonne">
+    <ownedAttribute xmi:id="_uQi5EKG0EeWxX7h3_p9AeQ" name="idPersonne" visibility="private" type="_uSRXYKG0EeWxX7h3_p9AeQ"/>
+    <ownedAttribute xmi:id="_uSs1MKG0EeWxX7h3_p9AeQ" name="age" visibility="private" type="_uSRXYKG0EeWxX7h3_p9AeQ"/>
+    <ownedAttribute xmi:id="_uS5pgKG0EeWxX7h3_p9AeQ" name="nom" visibility="private" type="_uS_JEKG0EeWxX7h3_p9AeQ"/>
+    <ownedOperation xmi:id="_uUMC8KG0EeWxX7h3_p9AeQ" name="afichnom" visibility="public" bodyCondition="_uVXHoKG0EeWxX7h3_p9AeQ">
+      <ownedRule xmi:id="_uVXHoKG0EeWxX7h3_p9AeQ">
+        <specification xmi:type="uml:LiteralString" xmi:id="_uV5TIKG0EeWxX7h3_p9AeQ" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_uX1z4KG0EeWxX7h3_p9AeQ" name="afichnom" type="_uS_JEKG0EeWxX7h3_p9AeQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_uYPcgKG0EeWxX7h3_p9AeQ" name="afciheprenom" visibility="public" bodyCondition="_uYbCsKG0EeWxX7h3_p9AeQ">
+      <ownedRule xmi:id="_uYbCsKG0EeWxX7h3_p9AeQ">
+        <specification xmi:type="uml:LiteralString" xmi:id="_uYc34KG0EeWxX7h3_p9AeQ" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_uYkzsKG0EeWxX7h3_p9AeQ" name="afciheprenom" type="_uYoeEKG0EeWxX7h3_p9AeQ" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_uSRXYKG0EeWxX7h3_p9AeQ" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_uS_JEKG0EeWxX7h3_p9AeQ" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_uYoeEKG0EeWxX7h3_p9AeQ" name="void"/>
+</uml:Model>

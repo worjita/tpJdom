@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="Diagramme de classes UML_1">
+  <packagedElement xmi:type="uml:Class" xmi:id="_luTLQJ5_EeWK6dwQD7OtFA" name="etudiant">
+    <ownedAttribute xmi:id="_lwF7AJ5_EeWK6dwQD7OtFA" name="nom" visibility="private" type="_lw1h4J5_EeWK6dwQD7OtFA"/>
+    <ownedAttribute xmi:id="_lw-r0J5_EeWK6dwQD7OtFA" name="prenom" visibility="private" type="_lw-r0Z5_EeWK6dwQD7OtFA"/>
+    <ownedAttribute xmi:id="_lxIc0J5_EeWK6dwQD7OtFA" name="Cne" visibility="private" type="_lxIc0Z5_EeWK6dwQD7OtFA"/>
+    <ownedOperation xmi:id="_lyB0sJ5_EeWK6dwQD7OtFA" name="infoetudiant" visibility="public" bodyCondition="_lynqkJ5_EeWK6dwQD7OtFA">
+      <ownedRule xmi:id="_lynqkJ5_EeWK6dwQD7OtFA">
+        <specification xmi:type="uml:LiteralString" xmi:id="_ly6lgJ5_EeWK6dwQD7OtFA" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_lzhCcJ5_EeWK6dwQD7OtFA" name="infoetudiant" type="_lw1h4J5_EeWK6dwQD7OtFA" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lw1h4J5_EeWK6dwQD7OtFA" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lw-r0Z5_EeWK6dwQD7OtFA" name="string"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lxIc0Z5_EeWK6dwQD7OtFA" name="int"/>
+</uml:Model>

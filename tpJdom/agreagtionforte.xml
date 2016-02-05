@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="Diagramme de classes UML_2">
+  <packagedElement xmi:type="uml:Association" xmi:id="__o-WAKEbEeWB35I-2f8kMw" name="Association_1" memberEnd="__o-WAaEbEeWB35I-2f8kMw __tcmUKEbEeWB35I-2f8kMw">
+    <ownedEnd xmi:id="__o-WAaEbEeWB35I-2f8kMw" name="" visibility="public" type="__yEAkKEbEeWB35I-2f8kMw" association="__o-WAKEbEeWB35I-2f8kMw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__ssYYKEbEeWB35I-2f8kMw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__sjOcKEbEeWB35I-2f8kMw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="__tcmUKEbEeWB35I-2f8kMw" name="" visibility="public" type="__8DDAKEbEeWB35I-2f8kMw" aggregation="composite" association="__o-WAKEbEeWB35I-2f8kMw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__t4rMKEbEeWB35I-2f8kMw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__tvhQKEbEeWB35I-2f8kMw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__yEAkKEbEeWB35I-2f8kMw" name="livre">
+    <ownedAttribute xmi:id="__3ujsKEbEeWB35I-2f8kMw" name="idLivre" visibility="private" type="__4BeoKEbEeWB35I-2f8kMw"/>
+    <ownedAttribute xmi:id="__4UZkKEbEeWB35I-2f8kMw" name="nomAuteur" visibility="private" type="__4eKkKEbEeWB35I-2f8kMw"/>
+    <ownedOperation xmi:id="__5gsYKEbEeWB35I-2f8kMw" name="afficheAuteur" visibility="public" bodyCondition="__59YUKEbEeWB35I-2f8kMw">
+      <ownedRule xmi:id="__59YUKEbEeWB35I-2f8kMw">
+        <specification xmi:type="uml:LiteralString" xmi:id="__59YUaEbEeWB35I-2f8kMw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="__7TcIKEbEeWB35I-2f8kMw" name="afficheAuteur" type="__4eKkKEbEeWB35I-2f8kMw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__4BeoKEbEeWB35I-2f8kMw" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__4eKkKEbEeWB35I-2f8kMw" name="String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="__8DDAKEbEeWB35I-2f8kMw" name="page">
+    <ownedAttribute xmi:id="__8yp4KEbEeWB35I-2f8kMw" name="NuPage" visibility="private" type="__4BeoKEbEeWB35I-2f8kMw"/>
+  </packagedElement>
+</uml:Model>

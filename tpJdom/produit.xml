@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="Diagramme de classes UML_2">
+  <packagedElement xmi:type="uml:Class" xmi:id="_qehR0KEYEeWB35I-2f8kMw" name="produit">
+    <ownedAttribute xmi:id="_qw0iwKEYEeWB35I-2f8kMw" name="idProduit" visibility="private" type="_qxt6oKEYEeWB35I-2f8kMw"/>
+    <ownedAttribute xmi:id="_qyA1kKEYEeWB35I-2f8kMw" name="description" visibility="private" type="_qyA1kaEYEeWB35I-2f8kMw"/>
+    <ownedAttribute xmi:id="_qyKmkKEYEeWB35I-2f8kMw" name="prix" visibility="private" type="_qyUXkKEYEeWB35I-2f8kMw"/>
+    <ownedOperation xmi:id="_qyxDgKEYEeWB35I-2f8kMw" name="afficheProdit" visibility="public" bodyCondition="_qzzlUKEYEeWB35I-2f8kMw">
+      <ownedRule xmi:id="_qzzlUKEYEeWB35I-2f8kMw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_q0GgQKEYEeWB35I-2f8kMw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_q1JpIKEYEeWB35I-2f8kMw" name="afficheProdit" type="_q1ckEKEYEeWB35I-2f8kMw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_qxt6oKEYEeWB35I-2f8kMw" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_qyA1kaEYEeWB35I-2f8kMw" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_qyUXkKEYEeWB35I-2f8kMw" name="float"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_q1ckEKEYEeWB35I-2f8kMw" name="void"/>
+</uml:Model>

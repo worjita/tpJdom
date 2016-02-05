@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="Diagramme de classes UML_2">
+  <packagedElement xmi:type="uml:Class" xmi:id="_8fricKEeEeWB35I-2f8kMw" name="livre">
+    <ownedAttribute xmi:id="_8mYnYKEeEeWB35I-2f8kMw" name="idLivre" visibility="private" type="_8mriUKEeEeWB35I-2f8kMw"/>
+    <ownedAttribute xmi:id="_8m-dQKEeEeWB35I-2f8kMw" name="nomAuteur" visibility="private" type="_8nIOQKEeEeWB35I-2f8kMw"/>
+    <ownedOperation xmi:id="_8oUhEKEeEeWB35I-2f8kMw" name="afficheAuteur" visibility="public" bodyCondition="_8o6W8KEeEeWB35I-2f8kMw">
+      <ownedRule xmi:id="_8o6W8KEeEeWB35I-2f8kMw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_8o6W8aEeEeWB35I-2f8kMw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_8qaLwKEeEeWB35I-2f8kMw" name="afficheAuteur" type="_8nIOQKEeEeWB35I-2f8kMw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8mriUKEeEeWB35I-2f8kMw" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8nIOQKEeEeWB35I-2f8kMw" name="String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8rNdAKEeEeWB35I-2f8kMw" name="BandeDessine">
+    <generalization xmi:id="_8rqI8KEeEeWB35I-2f8kMw" general="_8fricKEeEeWB35I-2f8kMw"/>
+    <ownedAttribute xmi:id="_8sZv0KEeEeWB35I-2f8kMw" name="nomBD" visibility="private" type="_8nIOQKEeEeWB35I-2f8kMw"/>
+    <ownedOperation xmi:id="_8tJ9wKEeEeWB35I-2f8kMw" name="afficheRoman" visibility="public" bodyCondition="_8tc4sKEeEeWB35I-2f8kMw">
+      <ownedRule xmi:id="_8tc4sKEeEeWB35I-2f8kMw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_8tc4saEeEeWB35I-2f8kMw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_8tmCoKEeEeWB35I-2f8kMw" name="afficheRoman" type="_8nIOQKEeEeWB35I-2f8kMw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8t5koKEeEeWB35I-2f8kMw" name="roman">
+    <generalization xmi:id="_8uMfkKEeEeWB35I-2f8kMw" general="_8fricKEeEeWB35I-2f8kMw"/>
+    <ownedAttribute xmi:id="_8ufagKEeEeWB35I-2f8kMw" name="nomRoman" visibility="private" type="_8nIOQKEeEeWB35I-2f8kMw"/>
+    <ownedOperation xmi:id="_8vPBYKEeEeWB35I-2f8kMw" name="afficheRoman" visibility="public" bodyCondition="_8vYyYKEeEeWB35I-2f8kMw">
+      <ownedRule xmi:id="_8vYyYKEeEeWB35I-2f8kMw">
+        <specification xmi:type="uml:LiteralString" xmi:id="_8vYyYaEeEeWB35I-2f8kMw" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_8vijYKEeEeWB35I-2f8kMw" name="afficheRoman" type="_8nIOQKEeEeWB35I-2f8kMw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>

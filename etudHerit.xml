@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="Diagramme de classes_1">
+  <packagedElement xmi:type="uml:Class" xmi:id="_4sKeEKNOEeW4M8tav-G7sg" name="Etudiant">
+    <ownedAttribute xmi:id="_4tO1EKNOEeW4M8tav-G7sg" name="nom" visibility="private" type="_4tR4YKNOEeW4M8tav-G7sg"/>
+    <ownedAttribute xmi:id="_4tUUoKNOEeW4M8tav-G7sg" name="prenom" visibility="private" type="_4tR4YKNOEeW4M8tav-G7sg"/>
+    <ownedAttribute xmi:id="_4tX_AKNOEeW4M8tav-G7sg" name="cne" visibility="private" type="_4tR4YKNOEeW4M8tav-G7sg"/>
+    <ownedOperation xmi:id="_4tmogKNOEeW4M8tav-G7sg" name="afficheEtudiant" visibility="public" bodyCondition="_4tq58KNOEeW4M8tav-G7sg">
+      <ownedRule xmi:id="_4tq58KNOEeW4M8tav-G7sg">
+        <specification xmi:type="uml:LiteralString" xmi:id="_4trhAKNOEeW4M8tav-G7sg" name="TemplateBody" value="%DefaultBody%"/>
+      </ownedRule>
+      <ownedParameter xmi:id="_4t8mwKNOEeW4M8tav-G7sg" name="afficheEtudiant" type="_4t904KNOEeW4M8tav-G7sg" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_4tR4YKNOEeW4M8tav-G7sg" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_4t904KNOEeW4M8tav-G7sg" name="void"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4uFwsKNOEeW4M8tav-G7sg" name="EtudiantBourse">
+    <generalization xmi:id="_4uQIwKNOEeW4M8tav-G7sg" general="_4sKeEKNOEeW4M8tav-G7sg"/>
+    <ownedAttribute xmi:id="_4ugAYKNOEeW4M8tav-G7sg" name="age" visibility="private" type="_4uhOgKNOEeW4M8tav-G7sg"/>
+    <ownedAttribute xmi:id="_4ujDsKNOEeW4M8tav-G7sg" name="bourse" visibility="private" type="_4uhOgKNOEeW4M8tav-G7sg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_4uhOgKNOEeW4M8tav-G7sg" name="int"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4u8FQKNOEeW4M8tav-G7sg" name="EtudiantNonBourse">
+    <generalization xmi:id="_4vCL4KNOEeW4M8tav-G7sg" general="_4sKeEKNOEeW4M8tav-G7sg"/>
+    <ownedAttribute xmi:id="_4vL84KNOEeW4M8tav-G7sg" name="age" visibility="private" type="_4uhOgKNOEeW4M8tav-G7sg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4vamYKNOEeW4M8tav-G7sg" name="Enseignant">
+    <ownedAttribute xmi:id="_4vsTMKNOEeW4M8tav-G7sg" name="nom" visibility="private" type="_4tR4YKNOEeW4M8tav-G7sg"/>
+    <ownedAttribute xmi:id="_4v0PAKNOEeW4M8tav-G7sg" name="prenom" visibility="private" type="_4tR4YKNOEeW4M8tav-G7sg"/>
+    <ownedAttribute xmi:id="_4v7jwKNOEeW4M8tav-G7sg" name="matiere" visibility="private" type="_4tR4YKNOEeW4M8tav-G7sg"/>
+  </packagedElement>
+</uml:Model>
